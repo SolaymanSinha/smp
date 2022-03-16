@@ -1,0 +1,39 @@
+.page-link{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.page-item{
+    margin-right: 20px;
+
+}
+
+#pagination{
+    width: 50%;
+    margin: auto;
+}
+
+.table{
+    width: 90%;
+    margin: auto;
+}
+
+thead{
+    color: grey;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+td, th{
+    padding: 20px !important;
+}
+
+.center-icon{
+    display: flex;
+    justify-content: center;
+}
