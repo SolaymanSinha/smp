@@ -11,8 +11,9 @@
 
 }
 
-#pagination{
-    margin: auto;
+.pagination{
+    display: flex;
+    justify-content: center;
 }
 
 .table{
