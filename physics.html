@@ -22,43 +22,47 @@
 
 <body>
     <br>
-    <nav id="pagination" aria-label="Page navigation example">
-        <ul class="pagination">
-            <li class="page-item"><a class="page-link" href="./index.html">All</a></li>
-            <li class="page-item active"><a class="page-link" href="./physics.html">Physics</a></li>
-            <li class="page-item"><a class="page-link" href="./chemistry.html">Chemistry</a></li>
-            <li class="page-item"><a class="page-link" href="./highermath.html">Higher Math</a></li>
-            <li class="page-item"><a class="page-link" href="./biology.html">Biology</a></li>
-            <li class="page-item"><a class="page-link" href="./generalmath.html">General Math</a></li>
-        </ul>
-    </nav>
+    <section style="width: 100%; display: flex; flex-wrap: nowrap; overflow-x: auto;">
+        <button class="btn"><a class="btn-anchor" href="./index.html">All</a></button>
+        <button class="btn"><a class="btn-anchor" href="./physics.html">Physics</a></button>
+        <button class="btn"><a class="btn-anchor" href="./chemistry.html">Chemistry</a></button>
+        <button class="btn"><a class="btn-anchor" href="./biology.html">Biology</a></button>
+        <button class="btn"><a class="btn-anchor" href="./highermath.html">Higher Math</a></button>
+        <button class="btn"><a class="btn-anchor" href="./generalmath.html">General Math</a></button>
+    </section>
 
-    <table class="table table-hover">
-        <thead>
-            <tr>
-                <th scope="col">#</th>
-                <th scope="col">Subject</th>
-                <th scope="col">Chapter/Topic</th>
-                <th scope="col">Instructor</th>
-                <th scope="col">Date & Time</th>
-                <th scope="col">Live Class</th>
-                <th scope="col">Lecture Sheet</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th scope="row">1</th>
-                <td class="bold">Physics</td>
-                <td>অধ্যায় দুই - গতি</td>
-                <td>Chinmoy Saha</td>
-                <td>March 14th 2022, 08:00:00 am</td>
+    <section id="table-section">
+        <table id="custom-table" class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Subject</th>
+                    <th scope="col">Chapter/Topic</th>
+                    <th scope="col">Instructor</th>
+                    <th scope="col">Date & Time</th>
+                    <th scope="col">Live Class</th>
+                    <th scope="col">Lecture Sheet</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Push the class information -->
+                <tr>
+                    <th scope="row">1</th>
+                    <td class="bold">Physics</td>
+                    <td>অধ্যায় দুই - গতি</td>
+                    <td>Chinmoy Saha</td>
+                    <td>March 14th 2022, 08:00:00 am</td>
 
-                <td><a class="center-icon" href="https://www.facebook.com/100005421971441/videos/325213962797888/"><img src="./presentation-svgrepo-com.svg" width="40" alt=""></a></td>
+                    <td><a class="center-icon"
+                            href="https://www.facebook.com/100005421971441/videos/325213962797888/"><img
+                                src="./presentation-svgrepo-com.svg" width="40" alt=""></a></td>
 
-                <td><a class="center-icon" href=""><img src="./slide-two-svgrepo-com.svg" width="40" alt=""></a></td>
-            </tr>
-        </tbody>
-    </table>
+                    <td><a class="center-icon" href=""><img src="./slide-two-svgrepo-com.svg" width="40" alt=""></a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
 
 
     <!-- Option 1: Bootstrap Bundle with Popper -->

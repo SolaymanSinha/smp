@@ -1,24 +1,20 @@
-.page-link{
-    text-decoration: none;
-    color: white;
+.btn{
     background-color: red;
-    border-radius: 15px;
-    padding: 15px;
+    margin: 5px;
 }
 
-.page-item{
-    margin-right: 20px;
-
+.btn-anchor{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
 }
 
-.pagination{
-    display: flex;
-    justify-content: center;
+.btn-anchor:hover{
+    color:dodgerblue;
 }
 
-.table{
-    width: 90%;
-    margin: auto;
+#custom-table{
+    width: 100%;
 }
 
 thead{
@@ -36,4 +32,14 @@ td, th{
 .center-icon{
     display: flex;
     justify-content: center;
+}
+
+@media only screen and (max-width: 600px) {
+    #table-section{
+        overflow-x: auto;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
 }
